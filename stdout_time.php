@@ -5,5 +5,7 @@
         ";
     }
 
-    echo "Finalizado en ".(time()-$init)."seg";
+    echo "
+    Finalizado en ".(time()-$init)."seg
+    ";
 ?>

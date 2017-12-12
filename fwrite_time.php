@@ -7,9 +7,9 @@
         fwrite($myfile, $txt);
      
         fclose($myfile);
-
-
     }
 
-    echo "Finalizado en ".(time()-$init)."seg";
+    echo "
+    Finalizado en ".(time()-$init)."seg
+    ";
 ?>
