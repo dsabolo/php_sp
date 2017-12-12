@@ -1,8 +1,8 @@
 <?php 
     $init = time();
-    for($i=0; $i<=100; $i++){
+    for($i=0; $i<=1000; $i++){
         
-        $myfile = fopen("newfile$i.txt", "w") or die("Unable to open file!");
+        $myfile = fopen("tmp/newfile$i.txt", "w") or die("Unable to open file!");
         $txt = "Aplicando texto ".$i;
         fwrite($myfile, $txt);
      
